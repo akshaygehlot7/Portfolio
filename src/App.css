@@ -1,0 +1,16 @@
+::-webkit-scrollbar{
+    width: 10px;
+    background: #c1ceff;
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-radius: 2em;
+    background: #282f4e;
+}
+
+@media screen and  (max-width: 370px){
+    .App{
+        width: fit-content;
+      }
+}

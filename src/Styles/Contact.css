@@ -1,0 +1,182 @@
+ .form{
+  display: grid;
+    width: 400px;
+    text-align: center;
+  }
+  .contactSection {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 4fr 4fr;
+    /* position: fixed; */ 
+  }
+  
+  .contactSectionContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-color: rgb(255, 255, 255);
+    width: 80vw;
+    height: 80vh;
+    transform: translateX(-50%) translateY(-50%);
+    box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.192);
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .contactSectionContainer > h1 {
+    font: 400 3vmax "Roboto";
+    color: black;
+    margin: 2vmax;
+  }
+  
+  .contactSectionContainer > div {
+    display: flex;
+    width: 100%;
+  }
+  
+  .contactSectionContainer > div > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vmax;
+    box-sizing: border-box;
+  }
+  
+  .contactSectionContainer > div > div > p {
+    color: rgba(0, 0, 0, 0.623);
+    font: 100 1vmax "Roboto";
+  }
+  
+  .contactSectionContainer > div > div > button {
+    margin: 1vmax 0;
+  }
+  
+  .contactSectionContainer > div > div > span {
+    font: 100 1vmax "Roboto";
+    color: rgba(0, 0, 0, 0.616);
+    text-align: center;
+    width: 80%;
+  }
+  
+  .contactSectionContainer {
+    border-left: 1px solid rgba(0, 0, 0, 0.116);
+  }
+  
+  .contactSectionContainer2 > h2 {
+    color: rgba(0, 0, 0, 0.623);
+    font: 100 2vmax "Roboto";
+    margin: 2vmax;
+  }
+  .contactSectionContainer2 > h3 {
+    color: rgba(0, 0, 0, 0.623);
+    font: 100 2vmax "Roboto";
+    margin: 1vmax;
+  }
+  .contactSectionContainer2 > a > svg {
+    font-size: 4vmax;
+  }
+  
+  .contactinstagramSvgIcon {
+    color: rgb(144, 81, 202);
+  }
+  .contactFacebookIconSvgIcon {
+    color: rgb(144, 81, 202);
+  }
+  .contactLinkedInIconSvgIcon {
+    color: rgb(144, 81, 202);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contactSectionContainer {
+      height: 100%;
+      margin-top: 6rem;
+    }
+    .contactSectionContainer > div {
+      display: block;
+    }
+  
+    .contactSectionContainer > h1 {
+      font: 400 5vmax "Roboto";
+      margin: 3vmax;
+    }
+  
+    .contactSectionContainer > div > div > p {
+      font: 100 2vmax "Roboto";
+    }
+  
+    .contactSectionContainer > div > div > span {
+      font: 100 1.4vmax "Roboto";
+      width: 70%;
+    }
+    /* .contactSectionContainer > div > div {
+      margin-top: -50px;
+    } */
+  
+    .contactSectionContainer2 {
+      border-left: none;
+    }
+  
+    .contactSectionContainer2 > h3 {
+      font: 100 3vmax "Roboto";
+      margin: 2vmax;
+    }
+  
+   .aboutSectionSocialMedia > a > svg {
+      font-size: 6vmax;
+      margin: 1vmax;
+    }
+    .form{
+      display: grid;
+        width: 100%;
+        text-align: center;
+      }
+  }
+  
+  @media screen and (max-width: 940px) {
+    .form{
+      display: grid;
+        width: 350px;
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 820px) {
+    .form{
+      display: grid;
+        width: 325px;
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 760px) {
+    .form{
+      display: grid;
+        width: 300px;
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 690px) {
+    .form{
+      display: grid;
+        width: 280px;
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 652px) {
+    .form{
+      display: grid;
+        width: 260px;
+        text-align: center;
+      }
+  }
+  @media screen and (max-width: 622px) {
+    .form{
+      display: grid;
+        width: 250px;
+        text-align: center;
+      }
+  }

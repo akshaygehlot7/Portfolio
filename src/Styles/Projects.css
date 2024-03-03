@@ -1,0 +1,31 @@
+.ProjectCon{
+    display: flex;
+    justify-content: center;
+}
+.ProjectCol{
+    text-align: center;
+}
+.ProjectContainer{
+    display: flex;
+    grid-column-gap: 5rem;
+}
+.Projectbox{
+    width: 20rem;
+    justify-content: center;
+    text-align: center;
+    border-radius: 15px;
+    border: 2px solid #d97777;
+    border-bottom: 3px solid #d97777;
+    border-top: 1px solid #d97777;
+    border-right: 1px solid #d97777;
+    border-left: 1px solid #d97777;
+}
+ .Projectbox >.Projectbox-img> img{
+    width: 15rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+ }
+ .Projectbox >.Projectbox-img> a{
+    text-decoration: none;
+    color: black;
+ }
